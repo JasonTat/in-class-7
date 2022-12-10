@@ -11,7 +11,7 @@ HTML for the project.
 
 
 async function getAllContacts (){
-    const res = await fetch('https://github.com/jimbits/jim/blob/main/data/contacts.json');
+    const res = await fetch('https://github.com/JasonTat/in-class-7/blob/main/data/contacts.json');
     const contacts = await res.json();
     return contacts
 }
